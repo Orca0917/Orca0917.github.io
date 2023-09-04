@@ -1,0 +1,10 @@
+---
+---
+
+@import '{{ site.theme }}';
+
+/* append your custom style below */
+.post img {
+    display: block;
+    margin: auto;
+}
