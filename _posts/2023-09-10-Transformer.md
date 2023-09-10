@@ -120,7 +120,7 @@ Encoder와 decoder 블럭은 각각 Fully Connected Network를 두었고, 이 FF
 
 $$FFN(x) = \max(0, xW_1 + b_1)W_2 + b_2$$
 
-FFN의 필요성은, 모델에 비선형성을 추가해주게 되며 Attention 이후에 얻어낸 각 token 간의 정보를 통합하고 특성을 추출하기 위함이다. 덕분에 token들로 부터 모델이 스스로 특성들을 추출하게 되며, 이를 바탕으로 neural machine translation을 하게 된다. 그래도 무엇보다 중요한 것은 활성함수를 통한 비선형성의 추가이다.
+FFN의 필요성은, 모델에 비선형성을 추가해주게 되며 attention 이후에 얻어낸 각 token 간의 정보를 통합하고 특성을 추출하기 위함이다. 덕분에 token들로 부터 모델이 스스로 특성들을 추출하게 되며, 이를 바탕으로 neural machine translation을 하게 된다. 그래도 무엇보다 중요한 것은 활성함수를 통한 비선형성의 추가이다.
 
 <br/>
 
