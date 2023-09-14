@@ -3,7 +3,7 @@ title: Transformer
 date: 2023-09-10 00:06:00 +0900
 categories: [Natural Language Processing, Neural Machine Translation]
 tags: [attention, transformer]     # TAG names should always be lowercase
-author: <author_id>
+author: moon
 math: true
 toc: true
 ---
