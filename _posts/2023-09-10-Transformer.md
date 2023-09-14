@@ -118,7 +118,7 @@ $$
 
 #### 2.2.3. Applications of Attention in our model
 
-Encoder의 출려과 decoder의 출력을 모두 사용하는 attention의 경우, decoder에 들어가는 attention 입력은 이전 레이어에서 출력으로 내보낸 단어이며, encoder에서 들어가는 입력은 각각 key와 value이다. 이렇게 함으로써, 모든 decoder의 출력이 encoder의 모든 {key, value}들과 한번 씩 대응되면서 비교할 수 있도록 만들어졌다. 이는 기존 RNN구조를 사용한 sequence to sequence 모델의 개념과 일치한다.
+Encoder의 출력과 decoder의 출력을 모두 사용하는 attention의 경우, decoder에 들어가는 attention 입력은 이전 레이어에서 출력으로 내보낸 단어이며, encoder에서 들어가는 입력은 각각 key와 value이다. 이렇게 함으로써, 모든 decoder의 출력이 encoder의 모든 {key, value}들과 한번 씩 대응되면서 비교할 수 있도록 만들어졌다. 이는 기존 RNN구조를 사용한 sequence to sequence 모델의 개념과 일치한다.
 
 <br/>
 
