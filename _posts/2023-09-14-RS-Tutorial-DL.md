@@ -1,7 +1,7 @@
 ---
 title: Deep Learning for Recommender Systems
 date: 2023-09-14 12:52:00 +0900
-categories: [Recommender system, Tutorial]
+categories: [Recommender system, Survey]
 tags: [tutorial]     # TAG names should always be lowercase
 author: moon
 math: true
