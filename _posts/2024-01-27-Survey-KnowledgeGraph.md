@@ -49,7 +49,7 @@ Knowledge graph는 서로 독립적인 object를 어떠한 관계(relation, attr
 
     GNN은 2가지 기본 요소인 aggregator와 updater로 구성되어 있다. 말 그대로 aggregator는 이웃 노드로 부터 전달된 정보를 결합하는 역할이고, updater는 현재 노드에서 이웃 노드로 정보를 전파시키는 역할이다. 이를 세부적으로 논문에서는 다음과 같이 분류 한다.
 
-    ![](/assets/img/survey-knowledgegraph/knowledge-graph-graph-attention.png){: style="display:block; margin:auto;" w="70%"}
+    ![GAT](/assets/img/survey-knowledgegraph/knowledge-graph-graph-attention.png){: style="display:block; margin:auto;" w="70%"}
 
     **Aggregator**
     - relation unaware aggregator
