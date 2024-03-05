@@ -43,7 +43,7 @@ Transformer 이전에 발표된 sequence to sequence 모델에서는 encoder와 
 
 #### 2.1.1. Encoder
 
-Encoder는 $N=6$개의 동일한 블럭이 쌓인 형태로 구성되어 있다. 하나의 블럭에는 2개의 레이어가 존재하며 첫 번째는 Multi-Head-Attention, 두 번째는 Fuly Connected Network이다. 각각의 레이어마다 skip connection이 적용되었으며 동시에 layer normalization도 사용되었다. 여러 개의 블럭이 쌓인 형태로 구성되어 있기 때문에, 입출력 차원을 일치시켜야 하는데 논문에서는 512 차원으로 고정시켰다고 한다.
+Encoder는 $N=6$개의 동일한 블럭이 쌓인 형태로 구성되어 있다. 하나의 블럭에는 2개의 레이어가 존재하며 첫 번째는 Multi-Head-Attention, 두 번째는 Fully Connected Network이다. 각각의 레이어마다 skip connection이 적용되었으며 동시에 layer normalization도 사용되었다. 여러 개의 블럭이 쌓인 형태로 구성되어 있기 때문에, 입출력 차원을 일치시켜야 하는데 논문에서는 512 차원으로 고정시켰다고 한다.
 
 <br/>
 
