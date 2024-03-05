@@ -143,7 +143,7 @@ FFN의 필요성은, 모델에 비선형성을 추가해주게 되며 attention 
 
 ### 2.5. Positional Encoding
 
-Transformer 모델 구조에는 RNN이나 CNN꽈 같은 구조를 갖지 않기 때문에 입력 token간의 순서 정보를 고려하지 못한다. 예를 들자면, ["I", "like", "eating"]과 ["eating", "I", "like"]를 동일하게 해석해버리는 문제가 발생하는 것이다. 그렇기 때문에 인위적으로 순서정보를 모델에 포함시켜줘야 하고, 그 역할을 하는 것이 positional encoding이다.
+Transformer 모델 구조에는 RNN이나 CNN과 같은 구조를 갖지 않기 때문에 입력 token간의 순서 정보를 고려하지 못한다. 예를 들자면, ["I", "like", "eating"]과 ["eating", "I", "like"]를 동일하게 해석해버리는 문제가 발생하는 것이다. 그렇기 때문에 인위적으로 순서정보를 모델에 포함시켜줘야 하고, 그 역할을 하는 것이 positional encoding이다.
 
 <br/>
 
