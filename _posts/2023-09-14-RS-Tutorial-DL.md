@@ -9,6 +9,10 @@ toc: true
 ---
 
 [Deep Learning for Recommender Systems](https://dl.acm.org/doi/10.1145/3109859.3109933)
+- ACM 2017
+- Alexandros Karatzoglou, Balázs Hidasi
+
+<br>
 
 ## Abstract
 

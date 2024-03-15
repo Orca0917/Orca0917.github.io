@@ -8,6 +8,12 @@ math: true
 toc: true
 ---
 
+[A Survey on Knowledge Graph-Based Recommender Systems](https://ieeexplore.ieee.org/abstract/document/9216015?casa_token=cF8ERPj9SjgAAAAA:Dt2X-RfMv60iV9JZTT495TTrEIm-P37wMHL6-oGw9bLo5lryam96ZBfVmZi5mmBeEAm9N-GLtKdB4g)
+- IEEE Transactions on Knowledge and Data Engineering 2022
+- Qingyu Guo, Fuzhen Zhuang, Chuan Qin, Hengshu Zhu, Xing Xie, Hui Xiong, Qing He
+
+<br>
+
 최근 많은 프로젝트를 진행하면서, 흥미가 가는 2가지 관심분야가 생기게 되었다. 그 중 하나가 추천시스템으로서, 더 세부적으로는 knowledge graph를 사용한 추천시스템이다. 나도 잘 모르는 나의 선호도를 수치화 또는 추적할 수 있고, 이를 바탕으로 나에게 맞는 컨텐츠를 제공해줄 수 있다는 점에서 크게 매력적으로 와닿았다. 다른 하나는 음성합성으로 흔히 TTS 또는 speech synthesis라고도 부른다. 이번에 교내 그리고 대외활동으로 프로젝트를 진행하다보니, 결과가 수치적인 결과 뿐만 아니라 들을 수 있는 파일로 생성된다는게 매력적이었다. 이미 많은 발전이 되어 있지만, 단순 음성합성을 넘어선 새로운 시도를 해보고 싶어 더 큰 흥미가 생기게 되었다.
 
 <br/>
