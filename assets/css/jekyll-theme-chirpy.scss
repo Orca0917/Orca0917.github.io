@@ -8,3 +8,11 @@
 ';
 
 /* append your custom style below */
+
+.content > p > em {
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: normal;
+  font-style: normal;
+  background: linear-gradient(to top, #f3eb7f 40%, transparent 50%);
+}
