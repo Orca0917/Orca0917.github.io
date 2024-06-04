@@ -131,9 +131,11 @@ Scaled positional encoding의 성능 평가도 이루어졌는데, 가중치를 
 
 ## 3. Conclusion
 
-전반적으로 Tacotron2와 Transformer 모델을 적절하게 조합한 결과라고 생각됩니다. 그 과정에서 변경 사항도 있었지만, 큰 성능 향상에는 Transformer의 기여가 컸다고 느껴집니다. 개인적으로 Tacotron2의 Prenet이나 Postnet이 음성학적 요소를 더 잘 뽑아내는 데 도움을 주었고, Transformer를 통해 시퀀스 정보를 고려했다고 생각되었습니다. 나름 간단해 보여 구현까지 해보았지만, 쉽지 않은 과정이었으며 데이터셋의 전처리 과정이 상당히 중요하다고 느껴졌으며 아래는 1 epoch만 학습시킨 결과입니다.
+전반적으로 Tacotron2와 Transformer 모델을 적절하게 조합한 결과라고 생각됩니다. 그 과정에서 변경 사항도 있었지만, 큰 성능 향상에는 Transformer의 기여가 컸다고 느껴집니다. 개인적으로 Tacotron2의 Prenet이나 Postnet이 음성학적 요소를 더 잘 뽑아내는 데 도움을 주었고, Transformer를 통해 시퀀스 정보를 고려했다고 생각되었습니다. 나름 간단해 보여 구현까지 해보았지만, 쉽지 않은 과정이었으며 데이터셋의 전처리 과정이 상당히 중요하다고 느껴졌으며 아래는 1 epoch만 학습시킨 결과입니다. Google colab 환경에서 실행할 수 있는 노트북은 [여기](https://github.com/Orca0917/TransformerTTS/blob/main/TransformerTTS.ipynb)에서 실행해보실 수 있습니다.
 
 ![transformer tts 구현 실행결과 (1epoch)](/assets/img/tranformer-tts/result.png){: style="display:block; margin:auto;" w="100%"}
+
+
 
 <br>
 
@@ -144,3 +146,4 @@ Scaled positional encoding의 성능 평가도 이루어졌는데, 가중치를 
 - [[2] Natural TTS Synthesis by Conditioning Wavenet on MEL Spectrogram Predictions](https://ieeexplore.ieee.org/abstract/document/8461368?casa_token=SWCjkg71MQsAAAAA:qedZBKa3b2wtK4DwkkyZpyieQOqaLgMEv-_QtR0EMOBesaohUC7UXdgT0TZoEvlWTf0zMm3PFiUyEg)
 
 - [[3] Transformer TTS Pytorch implementation](https://github.com/choiHkk/Transformer-TTS)
+
