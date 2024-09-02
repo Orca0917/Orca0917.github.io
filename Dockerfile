@@ -18,14 +18,17 @@ RUN apt-get install -y ruby-full
 # Set the working directory
 WORKDIR /usr/src/app
 
-# Clone the Jekyll blog repository
-COPY . /usr/src/app
+# Copy Gemfile and Gemfile.lock to the container first
+COPY Gemfile Gemfile.lock /usr/src/app/
 
 # Install bundler and dependencies
 RUN gem install bundler && bundle install
 
 # Expose port 4000 to the host
 EXPOSE 4000
+
+# Clone the Jekyll blog repository
+COPY . /usr/src/app
 
 # Start the Jekyll server
 CMD ["bundle", "exec", "jekyll", "serve", "--host", "0.0.0.0"]
