@@ -1,6 +1,6 @@
 ---
 title: PyTorch로 구현하는 Tacotron2 - 데이터셋 처리
-date: 2024-09-04 02:39:00 +0900
+date: 2024-09-04 17:19:00 +0900
 categories: [Audio, Implementation]
 tags: [tacotron2]     # TAG names should always be lowercase
 author: moon
