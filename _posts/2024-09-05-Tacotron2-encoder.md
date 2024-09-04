@@ -164,7 +164,7 @@ self.lstm = nn.LSTM(
 
 이 LSTM 층은 각 방향에 256개의 유닛을 가지고 있으며, 양방향으로 총 512개의 유닛을 통해 텍스트 시퀀스를 인코딩합니다. 이를 통해 텍스트의 앞뒤 문맥을 모두 반영한 특징 벡터를 추출할 수 있습니다.
 
-LSTM의 성능을 최적화하기 위해 `self.lstm.flatten_parameters()`를 호출하여 파라미터들이 메모리에서 인접하게 배치되도록 합니다. 이는 학습 속도를 높이는 데 도움이 됩니다. [[참고]](./2024-09-04-LSTM_flatten_parameters.md)
+LSTM의 성능을 최적화하기 위해 `self.lstm.flatten_parameters()`를 호출하여 파라미터들이 메모리에서 인접하게 배치되도록 합니다. 이는 학습 속도를 높이는 데 도움이 됩니다. [[참고]](/posts/LSTM_flatten_parameters)
 
 <br>
 
@@ -190,7 +190,7 @@ def forward(self, x: Tensor, input_lengths: Tensor) -> Tensor:
 
 - **컨볼루션 층 통과**: 입력된 텍스트는 각 컨볼루션 층을 거치며 **ReLU 활성화 함수**와 **드롭아웃**(0.5 확률) 적용을 통해 활성화됩니다.
 - **양방향 LSTM 통과**: 컨볼루션 층을 통과한 특징 벡터는 양방향 LSTM에 전달되어 시퀀스의 양쪽 맥락을 학습합니다.
-- **출력**: 마지막으로 LSTM의 출력은 **패딩된 상태**로 복원되고, 숨겨진 특징 벡터를 반환합니다. [[참고]](./2024-09-03-pack_padded_sequence.md)
+- **출력**: 마지막으로 LSTM의 출력은 **패딩된 상태**로 복원되고, 숨겨진 특징 벡터를 반환합니다. [[참고]](/posts/pack_padded_sequence)
 
 <br>
 
