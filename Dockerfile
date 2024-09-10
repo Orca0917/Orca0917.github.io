@@ -19,7 +19,7 @@ RUN apt-get install -y ruby-full
 WORKDIR /usr/src/app
 
 # Copy Gemfile and Gemfile.lock to the container first
-COPY Gemfile Gemfile.lock /usr/src/app/
+COPY Gemfile Gemfile.lock jekyll-theme-chirpy.gemspec /usr/src/app/
 
 # Install bundler and dependencies
 RUN gem install bundler && bundle install
